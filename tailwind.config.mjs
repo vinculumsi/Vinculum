@@ -17,6 +17,9 @@ export default {
       fontFamily: {
         atkinson: ["Atkinson", "sans-serif"],
       },
+      boxShadow: {
+        custom: "0 2px 8px rgba(var(--black), 0.05)",
+      },
     },
   },
   plugins: [],
