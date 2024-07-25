@@ -4,9 +4,12 @@ import Footer from "../components/Footer.astro";
 ---
 
 <html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
   <body>
     <Header />
-    <main><slot /></main>
+    <main class="mx-[10%]"><slot /></main>
     <Footer />
   </body>
 </html>
