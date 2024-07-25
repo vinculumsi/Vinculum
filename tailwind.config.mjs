@@ -15,7 +15,7 @@ export default {
         },
       },
       fontFamily: {
-        atkinson: ["Atkinson", "sans-serif"],
+        kantumruy: ["Kantumruy", "sans-serif"],
       },
       boxShadow: {
         custom: "0 2px 8px rgba(var(--black), 0.05)",
