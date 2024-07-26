@@ -11,7 +11,7 @@ export const BurgerMenu = () => {
         <div className="w-16 h-2 bg-black rounded-full"></div>
       </button>
       <div
-        className={`flex items-center gap-8 border-2 bg-white py-8 border-b-black w-[24rem] h-fit flex-col absolute mt-10 right-0 overflow-hidden transition-all duration-500 ease-in-out ${
+        className={`flex items-center gap-8 border-b-2 bg-white py-8 border-black w-[24rem] h-fit flex-col absolute mt-10 right-0 overflow-hidden transition-all duration-500 ease-in-out ${
           showMenu ? "max-h-screen opacity-100" : "max-h-0 opacity-0"
         }`}
       >
