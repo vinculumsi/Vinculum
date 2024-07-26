@@ -7,6 +7,7 @@ export default {
         transparent: "transparent",
         black: "#000000",
         white: "#ffffff",
+        gray: "#f6f6f6",
         yellow: {
           20: "#FFC400",
         },
