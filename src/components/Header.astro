@@ -1,13 +1,13 @@
 ---
-import HeaderLink from "./HeaderLink.astro";
+import HeaderLink from "./HeaderLink.tsx";
 ---
 
 <header class="mb-8 lg:my-0 p-0 bg-white shadow-custom border-2 border-b-black">
   <nav class="flex items-center justify-between">
     <a href="/" class="p-0 ml-4 md:ml-12"><img src="./vinculum.png" width="200px" height="60px" /> </a>
     <div class="md:mr-12 mr-4 flex gap-4 md:gap-12">
-      <HeaderLink href="/">Objetivos</HeaderLink>
-      <HeaderLink href="/">Divisiones</HeaderLink>
+      <HeaderLink id="objectives">Objetivos</HeaderLink>
+      <HeaderLink id="divisions">Divisiones</HeaderLink>
     </div>
   </nav>
 </header>
