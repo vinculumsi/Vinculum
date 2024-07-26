@@ -16,7 +16,10 @@ const ScrollButton = ({ componentId, name }: props) => {
   };
 
   return (
-    <button className="text-orange-20 text-3xl lg:text-base font-kantumruy font-bold" onClick={handleClick}>
+    <button
+      className="text-orange-20 hover:text-black hover:border-black lg:px-8 text-4xl h-[120px] rounded-full lg:h-[40px] w-[90%] lg:w-fit lg:text-base font-kantumruy font-bold border-2 border-orange-20"
+      onClick={handleClick}
+    >
       {name}
     </button>
   );
