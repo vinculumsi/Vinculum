@@ -5,4 +5,25 @@ import Objectives from "../components/Objectives.astro";
 import MainLayout from "../layouts/MainLayout.astro";
 ---
 
-<MainLayout><div class="mx-[5%] lg:mx-[10%] flex flex-col gap-16"><Intro /> <Divisions /><Objectives /></div> </MainLayout>
+<MainLayout><div class="mx-[5%] lg:mx-[10%] flex flex-col gap-16 animate-show"><Intro /> <Divisions /><Objectives /></div> </MainLayout>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const images = document.querySelectorAll(".animate-on-scroll");
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("opacity-100", "translate-y-0");
+          } else {
+            entry.target.classList.remove("opacity-100", "translate-y-0");
+          }
+        });
+      },
+      { threshold: [0.1, 0.5] }
+    );
+
+    images.forEach((img) => {
+      observer.observe(img);
+    });
+  });
+</script>
