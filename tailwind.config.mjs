@@ -3,6 +3,25 @@ export default {
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     extend: {
+      keyframes: {
+        show: {
+          "0%": { opacity: "0", transform: "scale(25%)" },
+          "100%": { opacity: "1", transform: "scale(100%)" },
+        },
+      },
+      animation: {
+        show: "show 1s ease-in-out",
+      },
+      transitionProperty: {
+        "opacity-transform": "opacity, transform",
+      },
+      translate: {
+        20: "20px",
+      },
+      opacity: {
+        0: "0",
+        100: "1",
+      },
       colors: {
         transparent: "transparent",
         black: "#000000",
