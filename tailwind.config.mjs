@@ -18,6 +18,10 @@ export default {
       translate: {
         20: "20px",
       },
+      transitionDuration: {
+        100: "100ms",
+        1200: "1200ms", // 1 second
+      },
       opacity: {
         0: "0",
         100: "1",
