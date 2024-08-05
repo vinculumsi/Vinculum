@@ -4,7 +4,7 @@ import ScrollButton from "./ScrollButton";
 export const BurgerMenu = () => {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <div className="flex lg:hidden mr-12 relative">
+    <div className="flex lg:hidden mr-12 relative z-50">
       <button className="flex flex-col space-y-1" onClick={() => setShowMenu((prev) => !prev)}>
         <div className="w-16 h-2 bg-black rounded-full"></div>
         <div className="w-16 h-2 bg-black rounded-full"></div>
