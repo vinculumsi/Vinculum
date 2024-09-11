@@ -1,5 +1,4 @@
-// Place any global data in this file.
-// You can import this data from anywhere in your site by using the `import` keyword.
-
 export const SITE_TITLE = "Vinculum";
 export const SITE_DESCRIPTION = "Soluciones Integrales";
+export const CONTACT_PHONE_NUMBER = "+5491140256766";
+// export const WHATSAPP_CONTACT_MESSAGE = "Buenas tardes! los estoy contactando para un posible"
